@@ -1,0 +1,185 @@
+
+ul{
+  list-style-type: none;
+}
+
+
+.col1, .col2, .col3{
+  width:99%;
+  margin:2em auto;
+  
+}
+
+
+
+
+
+
+.lblue:hover{  background:#EF3A5B;
+
+}
+
+
+.dblue:hover{  background:#BEA881;
+}
+
+
+.cyellow:hover{  background:#2f6abe;
+}
+
+
+.corange:hover{  background:#BEA881;
+}
+
+
+.lgrey:hover  {background:#8197be;
+}
+
+
+.lgreen:hover{  background:#5f30ba;
+}
+
+.big, .small{
+  float:left;
+  margin:0 auto 1%;
+  color:white;
+  font-family:"segoe ui";
+  font-size:2em;
+  text-align:center;
+  height:4.5em;
+  font-weight:300;
+  overflow:hidden;
+  padding:0em 0em;
+  cursor:pointer;
+  transition:all 0.3s ease-out;
+}
+.big:hover, .small:hover{
+
+}
+.big{
+ 
+
+  width:100%;
+}
+.small{
+  width:49%;
+  margin-right:2%;
+}
+.big p {
+  line-height:1.5;
+  margin-top:.6em;
+  padding:0 .3em;
+  transition:all 0.3s ease-out;
+}
+.small.last{
+  margin-right:0;
+}
+
+
+
+/*styling the boxes/thumbs*/
+
+.weather-thumb {background:#F2854C;}
+
+
+.paint-thumb {background:#85A9C3;}
+
+
+.cpanel-thumb {background:#83A8C3;}
+
+
+.games-thumb {background:#04ACAD;}
+
+
+.news-thumb, .calculator-thumb {background:#EBB741;}
+
+
+.videos-thumb, .code-thumb{background:#BEA881;}
+
+
+.lock-thumb, .alarm-thumb {background:#EF3A5B;}
+
+
+.git-thumb, .favorites-thumb, .notes-thumb {background:#385E82;}
+
+
+.photos-thumb {background:#BEA881;}
+
+
+.calendar-thumb, .organizer-thumb {background:#8BBA30;}
+
+
+.todos-thumb {background:#2FB1BE;}
+
+
+.todos-thumb p{
+  margin-top:.8em;
+}
+.todos-thumb-span{
+  display:block;
+  margin-top:1.5em;
+}
+
+
+
+
+body {
+  background: #185314;
+overflow-x:hidden;
+
+
+}
+
+
+
+
+
+
+
+
+/*------IMAGES------*/
+.anime img {
+  width: 280px;
+  height: 187px;
+ 
+
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+  -ms-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+.anime img:hover {
+  -webkit-transform: scale(-1, 1);
+  -moz-transform: scale(0.501, 1);
+  -o-transform: scale(0.501, 1);
+  z-index: -3;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 43.75em){/*700px*/
+  .col1,.col2,.col3{
+    float:left;
+    margin-right:1%;
+    width:49%;
+  }
+}
+@media screen and (min-width: 64em){
+  .col1,.col2,.col3{
+    float:left;
+    margin-right:.5%;
+    width:32%;
+  }
+  .col3{margin-right: 0;}
+  .col1{margin-left:1em;}
+  
+}
+
+
+

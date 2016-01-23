@@ -1,0 +1,26 @@
+/*** Style Definitions ***/
+html				{ background:#fff;  }
+ 
+
+.link{
+color:#fff;
+text-decoration:none;
+}
+ 
+#menu				{ float:right; position:absolute; top:20px; right:10px; z-index:10; }
+ 
+#menu a				{ background:#FFF; color:#67b2ff; border:#AAA 3px solid;  text-decoration:none; padding:10px;
+						margin-right:10px; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px;}
+ 
+#menu a:hover		{ background:#67b2ff; color:#FFF; border:#FFF 3px solid; text-decoration:none; padding:10px;
+						margin-right:10px; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px;}
+ 
+#menu li			{ float:left; }
+ 
+/*** Body Content ***/
+#wrapper	{ width:100%; height:100%; position:absolute; top:0; left:0; overflow-x:hidden;overflow-y:hidden; }
+ 
+#mask		{ width:700%; height:200%; }
+.boxs		{ position:relative;width:14.285%; height:50%;float:left; }
+.box		{ position:relative;width:14.285%; height:50%;float:left; }
+ 
